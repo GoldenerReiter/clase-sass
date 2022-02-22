@@ -1,0 +1,38 @@
+@use "header";
+@use "keys";
+@use "index";
+@use "nosotros";
+@use "productos";
+@use "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: var(---fondo-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(---fondo-color);
+}
+
+a:active {
+  color: var(---color-opcional);
+}
+
+a:visited {
+  color: var(---fondo-color);
+}
+
+p {
+  color: var(---base-color);
+}
+
+label {
+  color: var(---base-color);
+}

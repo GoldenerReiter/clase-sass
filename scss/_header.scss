@@ -1,0 +1,21 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  background-color: var(---resalto-color);
+  flex-wrap: wrap;
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    .header-item {
+      display: flex;
+      justify-content: center;
+      padding: 1%;
+      width: 33%;
+      border: solid var(---fondo-color) 2px;
+    }
+  }
+}
